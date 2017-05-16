@@ -1,19 +1,15 @@
 package boletin17;
 
+/*
+ * Alba Lojo Paz
+ */
+
 import java.util.ArrayList;
 
 public class DNI {
-
-	boolean eValido(String numeroLetra) {
-		return false;
-	}
-	int calculaLetra(String numero) {
-		return 0;
-	}
-	boolean eValido (ArrayList<Integer> numeros, char letra) {
-		return false;
-	}
-	int calculaLetra(ArrayList<Integer> numeros) {
-		return 0;
-	}
+	//Generar una letra del DNI
+	
+	private char letras[]={'T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E'};
+	// Generar un número del DNI de forma aleatoria
+	int numeroAleatorio = (int) (Math.random() * 99999999 + 1);
 }
