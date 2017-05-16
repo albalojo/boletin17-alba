@@ -16,12 +16,10 @@ public class Xeometria {
 	}
 
 	public double teoremaPitagoras(int catetoA, int catetoB) {
-
 		return Math.sqrt((catetoA * catetoA) + (catetoB * catetoB));
 	}
 
 	public double teoremaPitagoras(double catetoA, double hipotenusaC) {
-
 		return Math.sqrt((hipotenusaC * hipotenusaC) - (catetoA * catetoA));
 
 	}
