@@ -4,8 +4,6 @@ package boletin17;
  * Alba Lojo Paz
  */
 
-import java.util.ArrayList;
-
 public class DNI {
 	//Generar una letra del DNI
 	
